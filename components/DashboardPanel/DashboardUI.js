@@ -21,14 +21,14 @@ const DashboardUI = () => {
 
   const fetcher = (id) => {
     const unsub = onSnapshot(doc(db, "admin", id), (doc) => {
-      setLoggedin(doc.data());
+      setLoggedin(doc.data().adminLog);
     });
   };
 
   // useEffect
   useEffect(() => {
     fetcher("O53nRl1MtNY1XhdhwXUB");
-  }, [loggedin]);
+  }, []);
 
   // handleRoute
   const handleRoute = (e) => {
