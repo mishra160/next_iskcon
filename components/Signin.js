@@ -120,7 +120,7 @@ const Signin = () => {
         />
         <ToastContainer />
         {/* // toast notification */}
-        <div className="flex flex-col items-center justify-center py-2 mx-auto ">
+        <div className="flex flex-col items-center justify-center py-2 mx-auto my-[63px]">
           <div className="rounded-2xl shadow-2xl flex w-full max-w-3xl  text-center bg-gray-300  ">
             {/* Left Section */}
             <div className="w-full p-5">
