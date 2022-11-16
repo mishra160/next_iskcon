@@ -99,7 +99,7 @@ const Navbars = ({ user }) => {
                 />
               </div>
               <h1 className="hidden md:flex text-3xl cursor-pointer font-black mx-2 my-auto text-green-400 ">
-                ISK-CON
+                ISKCON
               </h1>
             </div>
           </Link>
