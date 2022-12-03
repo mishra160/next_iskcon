@@ -12,6 +12,9 @@ import { db } from "../../firebase/firebaseConfig";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+// react-icons
+import { TbLogout } from "react-icons/tb";
+
 const Sidebar = () => {
   // router
   const router = useRouter();
@@ -85,7 +88,12 @@ const Sidebar = () => {
           className="bg-gray-500 hover:bg-green-500 cursor-pointer my-1"
           onClick={handleSignout}
         >
-          <h1 className="text-2xl p-2 text-center ">LOGOUT</h1>
+          <div className="flex justify-center items-center">
+            <h1 className="text-2xl p-2 text-center ">LOGOUT</h1>
+            <span>
+              <TbLogout size={24} color={"red"} />
+            </span>
+          </div>
         </div>
       </main>
     </>
