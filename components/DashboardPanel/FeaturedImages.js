@@ -239,9 +239,6 @@ const DashboardFeatureimage = () => {
         </section>
       </div>
 
-      <div className="w-full h-auto flex justify-center items-center">
-        <h1 className="text-2xl font-bold">Loading</h1>
-      </div>
     </>
   );
 };
