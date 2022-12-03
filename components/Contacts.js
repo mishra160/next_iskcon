@@ -181,7 +181,7 @@ const Contacts = () => {
                 </a>
                 {/* ::Address */}
                 <p className="text-base text-gray-500 leading-6">
-                  Basbitti `&ldquo;` Dudhmati-22`&ldquo;` <br /> JanakpurDham
+                  Near Basbitti , Dudhmati-23 <br /> JanakpurDham
                   <br /> Nepal
                 </p>
                 {/* ::Socials */}
