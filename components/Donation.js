@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 // public images
 import esewa from "../public/esewa.jpg";
 import khalti from "../public/khalti.jpg";
@@ -37,11 +38,6 @@ const Donation = () => {
                 height="540px"
                 object-fit="cover"
               />
-              <div className="px-6 py-4 ">
-                <h1 className="font-bold text-xl mb-2 text-center">
-                  COMING UP SOON
-                </h1>
-              </div>
             </div>
           </div>
           {/* esewa-card-end */}
@@ -55,11 +51,6 @@ const Donation = () => {
                 height="540px"
                 object-fit="cover"
               />
-              <div className="px-6 py-4 ">
-                <h1 className="font-bold text-xl mb-2 text-center">
-                  COMING UP SOON
-                </h1>
-              </div>
             </div>
           </div>
           {/* khalti-card-end */}
@@ -73,15 +64,18 @@ const Donation = () => {
                 height="540px"
                 object-fit="cover"
               />
-              <div className="px-6 py-4 ">
-                <h1 className="font-bold text-xl mb-2 text-center">
-                  COMING UP SOON
-                </h1>
-              </div>
             </div>
           </div>
           {/* bank-transfer-card-end */}
         </div>
+        <Link href="/donation">
+          <button
+            type="button"
+            className=" relative mb-3 mt-2 w-full inline-block px-6 py-2.5 bg-green-500 text-white font-bold text-xl leading-normal uppercase rounded shadow-md hover:bg-green-600 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out mx-auto justify-items-center"
+          >
+            DONATE US
+          </button>
+        </Link>
       </div>
     </>
   );
